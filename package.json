@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-template",
+  "version": "0.0.1",
+  "description": "Template app Nodejs",
+  "main": "main.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-fileupload": ">=0.2.0",
+    "axios": ">= 0.17.1",
+    "node-cmd": ">= 3.0.0",
+    "nodemailer": ">= 4.0.0",
+    "agentkeepalive": ">= 3.0.0"
+  },
+  "engines": {
+    "node": "4.0.0"
+  }
+}
