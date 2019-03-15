@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("fonts/Quicksand-Regular.otf");
+}
+
+@font-face {
+    font-family: "QuicksandItalic";
+    src: url("fonts/Quicksand-Italic.otf");
+}
+
+@font-face {
+    font-family: "QuicksandBold";
+    src: url("fonts/Quicksand-Bold.otf");
+}
+
+h1, h2 {
+    font-family: "Quicksand";
+}
