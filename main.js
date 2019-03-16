@@ -14,6 +14,8 @@ var mailSender=require('./mail-send');
 // include the manager object containing the logics
 var mng =require("./manager.js");
 
+// include manager for db
+var db_mng =require("./database_mng.js");
 
 // include the libraries used
 const fs = require("fs");
@@ -328,6 +330,8 @@ process.on('SIGUSR1', exitHandler.bind(null, {}));
 process.on('SIGUSR2', exitHandler.bind(null, {}));
 process.on('uncaughtException', exitHandler.bind(null, {}));
 
+//initialize database manager
+gMngDb=new db_mng.DBMng();
 // initialize webserver
 gManager=new mng.Manager(gConfig);
 if(!gManager.init()){
