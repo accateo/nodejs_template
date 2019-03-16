@@ -6,7 +6,7 @@ Quick template to deploy a Node JS application. You'll find:
 
 - an easy web page, built with Boostrap
 - a manager for your logic
-- a main file with useful rest api
+- a main file with useful REST api
 
 
 ## How to install
