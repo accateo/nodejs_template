@@ -19,7 +19,7 @@ Step:
 
 - open a terminal and move to the template directory
 
-- write "npm install", with this you'll have all the useful packages
+- write "npm install", with this you'll have all the useful packages (and you'll see a "node_modules" folder)
 
 - execute "node db.js" , to create the SqlLite "test" database
 
