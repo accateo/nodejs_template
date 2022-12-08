@@ -4,7 +4,7 @@
   "description": "Template app Nodejs",
   "main": "main.js",
   "dependencies": {
-    "express": "^4.13.3",
+    "express": "^4.17.3",
     "express-fileupload": ">=0.2.0",
     "axios": ">= 0.18.1",
     "node-cmd": ">= 3.0.0",
